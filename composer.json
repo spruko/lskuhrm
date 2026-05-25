@@ -1,0 +1,22 @@
+{
+    "name": "laravel-lara/lskuhrm",
+    "description": "Description",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "laravelLara\\lskuhrm\\": "src/",
+            "laravelLara\\lskuhrm\\Console\\Commands\\": "src/Commands"
+        },
+        "files": [
+            "src/utils/ActionHandler.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "spruko",
+            "email": "dev@team.spruko.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
